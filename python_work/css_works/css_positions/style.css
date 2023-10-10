@@ -1,0 +1,40 @@
+.row {
+    width: 80%;
+    height: 400px;
+    background-color: palevioletred;
+    border: 2px solid black;
+}
+
+.col {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.row .col:nth-child(1) {
+    background-color: aqua;
+    position: relative;
+    top: 60%;
+    left: 60%;
+}
+
+.row .col:nth-child(2) {
+    background-color: lightgreen;
+
+}
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    position: fixed;
+    left: 80%;
+}
+.sticky{
+    background-color: blueviolet;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    position: sticky;
+    top: 10px;
+}

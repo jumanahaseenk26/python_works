@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.row{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.col{width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: gray;
+}
+.row1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.col1{width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    background-color:orange;
+}
+.row2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.col2{width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aqua ;
+}

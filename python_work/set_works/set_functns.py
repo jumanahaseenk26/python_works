@@ -1,0 +1,15 @@
+#st={10,20,30}
+#st.add(100)
+#print(st)
+#st.add("hello")
+#print(st)
+st1={10,20,30}
+st2={11,12,20,24,30}
+union_set=st1.union(st2)
+print(union_set)
+intersection_set=st1.intersection(st2)
+print(intersection_set)
+diffrence_set=st1.difference(st2)
+print(diffrence_set)
+diffrence_set1=st2.difference(st1)
+print(diffrence_set1)

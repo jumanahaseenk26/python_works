@@ -1,0 +1,99 @@
+.row {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    /* border: 2px solid  black;*/
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+.col {
+    width: 40%;
+    height: 350px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.col1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(230, 31, 31);
+    margin-top: 25px;
+}
+
+.col1 h3 {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.col2 {
+    width: 35%;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.card-header {
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    color: orange;
+    margin-top: 40px;
+}
+
+.card-body {
+    width: 100%;
+    min-height: 150px;
+}
+
+.btn {
+    background-color: rgb(221, 215, 215);
+    color: grey;
+}
+
+.btn1 {
+    background-color: yellow;
+    color: white;
+    padding: 10px;
+}
+
+.col3 {
+    width: 250px;
+    height: 250px;
+    background-color: #fc26b1;
+    margin-top: 25px;
+}
+
+.col4 {
+    width: 250px;
+    height: 250px;
+    background-color: #850fd4;
+    margin-top: 25px;
+}
+
+.col5 {
+    width: 250px;
+    height: 250px;
+    background-color: #21e1f3;
+    margin-top: 25px;
+}
+
+.col3 h3 {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.col4 h3 {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.col5 h3 {
+    text-align: center;
+    margin-top: 110px;
+}
